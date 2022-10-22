@@ -35,7 +35,7 @@ with os.scandir(INPUT_LV1) as level_1:
     #Run alogrithm level 1 
         DFS.run_dfs(f.path,  out_path +  '/dfs')
 
-        #BFS.run_bfs(f.path,  out_path + '/' + 'bfs')
+        BFS.run_bfs(f.path,  out_path + '/' + 'bfs')
 
         UCS.run_ucs(f.path, out_path +'/ucs')
         

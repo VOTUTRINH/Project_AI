@@ -83,9 +83,11 @@ def run_utility(file_path_in,file_path_out):
         f.write(str(cost))
     f.close()
     plt= dm.visualize_maze(maze,backup_bonus,start,goal,path)
+    
 
     sample_file_name = "algo1.jpg"
     plt.savefig(file_path_out + '/' +sample_file_name)
+    plt.close()
 
 
 

@@ -98,4 +98,5 @@ def run_gbfs(file_path_in,file_path_out):
         else:
             f.write(str(cost))
         f.close()
+        plt.close()
 
